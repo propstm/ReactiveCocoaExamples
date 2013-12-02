@@ -55,7 +55,8 @@
     [self.view addSubview:nameLabel];
     [self.view addSubview:emailLabel];
     [self.view addSubview:passwordLabel];
-    [self.view addSubview:loginBtn];
+    //Removing this from the UI because i'm not using it for anything currently.
+    //[self.view addSubview:loginBtn];
     
     [self.view addSubview:self.namefield];
     [self.view addSubview:self.emailfield];
